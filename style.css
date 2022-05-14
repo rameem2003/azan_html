@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,.630), rgba(0,0,0,.630)), url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 5%;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.header-left{
+    color: rgb(245, 245, 248);
+    padding: 15px;
+}
+.header-right{
+    padding: 20px;
+}
+.header-right ul li{
+    padding: 10px;
+    display: inline;
+}
+.header-right ul li a{
+    color: white;
+    font-size: 15px;
+    transition: all 0.4s ease-in-out;
+}
+.header-right ul li a:hover{
+    background-color: rgba(255, 68, 0, 0.473);
+    padding: 10px;
+    border-radius: 40px;
+}
